@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Zuri Java Intro</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <p> A LITTLE ABOUT ME</p>
+  <section>
+  <p id="name"></p>
+  <button id="btn1" type="button" onclick="myFunction1()"> Name </button>
+    <script>
+      function myFunction1() {
+         var name = "Demilade Omoniyi";
+document.getElementById("name").innerHTML = name;
+}
+    </script>
+  </section>
+
+  <section>
+  <p id="height"></p>
+  <button id="btn2" type="button" onclick="myFunction2()"> Height </button>
+    <script>
+    function myFunction2() {
+         var height = "1.65m";
+document.getElementById("height").innerHTML = height;
+      }
+    </script>
+  </section>
+  
+  <section>
+  <p id="country"></p>
+  <button id="btn3" type="button" onclick="myFunction3()"> Country </button>
+<script>
+  function myFunction3() {
+         var country = "Nigeria";
+document.getElementById("country").innerHTML = country;
+}
+</script>
+  </section>
+</body>
+</html>
